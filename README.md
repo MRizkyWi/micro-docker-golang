@@ -5,5 +5,4 @@ to build:
 docker-compose up
 ```
 
-list of API:
-1. \users\:index to return user with index
+API Collection: https://www.getpostman.com/collections/a70a31f93cd42d193c2b
