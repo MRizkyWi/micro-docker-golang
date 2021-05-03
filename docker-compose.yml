@@ -1,0 +1,11 @@
+version: "2"
+services:
+  app:
+    image: golang:1.6.1-alpine
+    volumes:
+      - .:/go/src/micro-echo
+    ports:
+      - 8080:80
+    working_dir: /go/src/micro-echo
+    command: go run main.go
+    network_mode: host
